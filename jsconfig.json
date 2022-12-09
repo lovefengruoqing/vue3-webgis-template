@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "types": [
+      "element-plus/global"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+    },
+    "allowJs": true,
+    "jsx": "preserve"
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
